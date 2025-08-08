@@ -1,5 +1,17 @@
 .head{
     width: 100vw;
-    min-height: 100vh;
+    min-height: 100px;
     background: #fff;
+}
+
+.body{
+    width: 100vw;
+    min-height: 100px;
+    background: #f0f0f0;
+}
+
+
+.footer {
+  min-height: 50px;
+  background: #FFFDD0;
 }
