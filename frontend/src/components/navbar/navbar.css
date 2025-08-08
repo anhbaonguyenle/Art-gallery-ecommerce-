@@ -1,8 +1,37 @@
+*{
+    color: #000;
+}
 .navbar{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #FFFDD0;
-    color: #000;
+}
+.logo-container{
+    font-size: 1em;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.navbar-container {
+    flex: 1;
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+
+}
+.navbar-container li{
+    display: inline-block;
+    margin: 0px 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.navbar-container a{
+    text-decoration: none;
+}
+.right-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 20px;
 }

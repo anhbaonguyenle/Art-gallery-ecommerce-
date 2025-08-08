@@ -3,31 +3,37 @@ import './navbar.css';
 
 const Navbar = () => {
     return (
-    <div className = "navbar">
-        <div className="logo-container">
-            <img src= "" alt="logo" href="/" className="logo"/>
-        </div>
-        <div className="navbar-container">
-            <ul>
-                <li><a href="/artwork"/>Artwork</li>
-                <li><a href="/products"/>Products</li>
-                <li><a href="/contact"/>Contact</li>
-                <li><a href="/about"/>About</li>
-            </ul>
-        </div>
-        <div className="right-container">
-            <div className='search-box'>
-                <input type="text" placeholder="Search..."/>
-                <img src="" alt="search-icon" className="search-icon"/>
+        <div className="navbar">
+            <div className="logo-container">
+                <a href="/">
+                    <img src="" alt="logo" className="logo" />
+                </a>
             </div>
-            <div className="cart-icon">
-                <img src= "" alt="cart-icon" href="/cart" className="cart"/>
+            <div className="navbar-container">
+                <ul>
+                    <li><a href="artwork">Artwork</a></li>
+                    <li><a href="products">Products</a></li>
+                    <li><a href="contact">Contact</a></li>
+                    <li><a href="about">About</a></li>
+                </ul>
             </div>
-            <div className="user-icon">
-                <img src= "" alt="user-icon" href="/user" className="user"/>
+            <div className="right-container">
+                <div className="search-box">
+                    <input type="text" placeholder="Search..." />
+                    <img src="" alt="search-icon" className="search-icon" />
+                </div>
+                <div className="cart-icon">
+                    <a href="/cart">
+                        <img src="" alt="cart-icon" className="cart" />
+                    </a>
+                </div>
+                <div className="user-icon">
+                    <a href="/user">
+                        <img src="" alt="user-icon" className="user" />
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
     );
 }
 
