@@ -4,7 +4,6 @@ import './footer.css';
 const Footer = () => {
   return (
     <footer className="footer">
-      {/* Left section */}
       <div className="footer-left">
         <div className="footer-column">
           <h3>About us</h3>
@@ -33,13 +32,8 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Right section */}
       <div className="footer-right">
-        <div className="footer-logo">
-          <h1>F&amp;F</h1>
-          <hr />
-          <span>Frame and Flourish</span>
-        </div>
+        <a href="/"><img src="public/logo/logo.png" alt="Logo" /></a>
         <p className="footer-note">
           Note: Everything on this website is not real (except About)
         </p>
