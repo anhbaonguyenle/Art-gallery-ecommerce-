@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="footer-column">
           <h3>Resources</h3>
           <ul>
-            <li><a href="https://github.com" target="_blank" rel="noopener noreferrer">Github</a></li>
+            <li><a href="https://github.com/anhbaonguyenle/Art-gallery-ecommerce-" target="_blank" rel="noopener noreferrer">Github</a></li>
             <li><a href="/figma">Figma</a></li>
           </ul>
         </div>
@@ -33,7 +33,7 @@ const Footer = () => {
       </div>
 
       <div className="footer-right">
-        <a href="/"><img src="public/logo/logo.png" alt="Logo" /></a>
+        <a href="/"><img src="/logo/Logo.png" alt="Logo" /></a>
         <p className="footer-note">
           Note: Everything on this website is not real (except About)
         </p>
