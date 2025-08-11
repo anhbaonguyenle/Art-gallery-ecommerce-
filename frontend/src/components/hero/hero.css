@@ -1,0 +1,19 @@
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.hero-image-container {
+  position: relative;
+  max-width: 1200px;
+  border: 6px solid black;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
