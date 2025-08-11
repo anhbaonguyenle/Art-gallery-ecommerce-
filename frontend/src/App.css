@@ -18,11 +18,11 @@ html, body, #root {
     flex: 1;
     width: 100%;
     min-height: 100px;
-    background: #f0f0f0;
+    background: #fff;
 }
 
 .foot {
     min-height: 50px;
     width: 100%;
-    background: #FFFDD0;
+    background: #FFFFFF;
 }

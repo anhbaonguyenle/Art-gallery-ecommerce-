@@ -1,5 +1,9 @@
 import React from 'react';
 import './navbar.css';
+import {Link} from 'react-router-dom';
+import searchIcon from '../../assets/icon/Search.png';
+import cartIcon from '../../assets/icon/cart.png';
+import profileIcon from '../../assets/icon/profile.png';
 
 const Navbar = () => {
 
@@ -7,33 +11,33 @@ const Navbar = () => {
         <div className="navbar">
 
             <div className="logo-container">
-                <a href="/" className="logo">
+                <Link to="/" className="logo">
                     <img src="/logo/Logo.png" alt="Logo" />
-                </a>
+                </Link>
             </div>
 
             <ul className="navbar-menu">
-                <li><a href="/artwork">Artwork</a></li>
-                <li><a href="/products">Products</a></li>
-                <li><a href="/contact">Contact</a></li>
-                <li><a href="/about">About</a></li>
+                <li><Link to="/artwork">Artwork</Link></li>
+                <li><Link to="/products">Products</Link></li>
+                <li><Link to="/contact">Contact</Link></li>
+                <li><Link to="/about">About</Link></li>
             </ul>
 
             <div className="right-container">
                 <div className={`search-container`}>
                     <input type="text" placeholder="Search..." />
                     <img
-                        src="/icon/Search.png"
+                        src={searchIcon}
                         alt="search-icon"
                         className="icon-btn"
                     />
                 </div>
-                <a href="/cart">
-                    <img src="/icon/cart.png" alt="cart" className="icon-btn" />
-                </a>
-                <a href="/user">
-                    <img src="/icon/profile.png" alt="user" className="icon-btn" />
-                </a>
+                <Link to="/cart">
+                    <img src={cartIcon} alt="cart" className="icon-btn" />
+                </Link>
+                <Link to="/user">
+                    <img src={profileIcon} alt="user" className="icon-btn" />
+                </Link>
             </div>
         </div>
     );
