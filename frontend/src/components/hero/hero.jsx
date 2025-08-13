@@ -7,7 +7,9 @@ const Hero = () => {
   return (
     <div className="hero-section">
       <div className="hero-image-container">
-        <img src={heroImage} alt="Geometric Art" className="hero-image" />
+        <Link to="/products">
+          <img src={heroImage} alt="Geometric Art" className="hero-image" />
+        </Link>
       </div>
     </div>
   );
